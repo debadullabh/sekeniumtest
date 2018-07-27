@@ -21,7 +21,7 @@ public class NewTest7 {
 	WebDriver driver;
 	@Test
 	public void testLogin()
-	{
+	{   //Changes
 		System.setProperty("webdriver.chrome.driver", "C:\\Projects\\CommerceCloud\\drivers\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("http://newtours.demoaut.com/");
